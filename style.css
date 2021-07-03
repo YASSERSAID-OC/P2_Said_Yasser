@@ -1,0 +1,19 @@
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; flex-end;
+    align-items: flex-end;
+}
+body ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
