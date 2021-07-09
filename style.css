@@ -1,19 +1,26 @@
+html
+{
+    font-family: Raleway, Arial, Verdana, sans-serif;
+}
 nav ul
 {
     list-style-type: none;
     display: flex;
-    justify-content: space-between; flex-end;
-    align-items: flex-end;
+    justify-content: flex-end;
+    color: #0065FC;
+
 }
-body ul
+
+
+
+
+
+
+
+
+
+footer
 {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-}
-footer ul
-{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
 }
