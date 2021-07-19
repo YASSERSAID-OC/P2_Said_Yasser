@@ -1,1 +1,1 @@
-<i class="fa-solid fa-info"></i>
+<i class="fas fa-info"></i>

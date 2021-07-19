@@ -1,18 +1,31 @@
-html
+body
 {
-    font-family: Raleway, Arial, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-nav ul
+ul
 {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     color: #0065FC;
-
 }
-
-
-
+li 
+{
+    margin-right: 60px;
+}
+#logo
+{
+    height: 2px;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+#Filtres
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
 
 
 
@@ -23,4 +36,6 @@ footer
 {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
