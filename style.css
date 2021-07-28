@@ -1,6 +1,9 @@
-body
+body, html
 {
+    height: 1884px;
+    width: 1440px;
     font-family: 'Raleway', sans-serif;
+
 }
 #Nav, ul
 {
@@ -43,6 +46,35 @@ li
     align-items: center;
 }
 
+img
+{
+    width:400px;
+    height: 260px;
+}
+
+#conteneur1
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    justify-content:flex-start;
+}
+
+#conteneur2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex end;
+    align-items: flex-end;
+}
+
+#conteneur3
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    justify-content:space-between;
+}
 
 
 
