@@ -29,7 +29,11 @@ li
 {
     margin: 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    border: 0.1px solid;
+    border-radius:22px;
+    width: 20%;
 }
 #Filtres
 {
@@ -39,17 +43,34 @@ li
     width: 70%;
     align-items: center;
 }
+
+#filtre1
+{
+    border: 0.1px solid;
+    border-radius:22px;
+}
+#filtre2
+{
+    border: 0.1px solid;
+    border-radius:22px;
+}
+#filtre3
+{
+    border: 0.1px solid;
+    border-radius:22px;
+}
+#filtre4
+{
+    border: 0.1px solid;
+    border-radius:22px;
+}
+
 #Infos
 {
     margin: 0;
     display: flex;
     align-items: center;
-}
-
-img
-{
-    height: 265px;
-    width: 400px;
+    
 }
 
 #conteneur1
@@ -69,7 +90,7 @@ img
     border-radius:20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    
 }
 #conteneur3
 {
