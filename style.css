@@ -35,6 +35,16 @@ li
     border-radius:22px;
     width: 20%;
 }
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+    border: 1px solid black;
+}
+
 #Filtres
 {
     list-style-type: none;
@@ -73,24 +83,39 @@ li
     
 }
 
+#complementaires
+{
+    border: 1px solid;
+    border-radius:15px;
+}
+
 #conteneur1
 {
     width: 70%;
     border: 2px solid green;
     border-radius:20px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+}
+.img1
+{
+    width: 50%;
 }
 #conteneur2
 {
     width: 30%;
+    height: 30%;
     border: 2px solid green;
     border-radius:20px;
     display: flex;
     flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
     
+}
+.img2
+{
+    width: 100%;
 }
 #conteneur3
 {
@@ -100,14 +125,13 @@ li
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+.img3
+{
+    width: 100%;
 }
 
-article
-{
-    width: 30%;
-    border: 1px solid red;
-    border-radius: 20px;
-}
 
 
 footer
