@@ -54,22 +54,7 @@ td
     align-items: center;
 }
 
-#filtre1
-{
-    border: 0.1px solid;
-    border-radius:22px;
-}
-#filtre2
-{
-    border: 0.1px solid;
-    border-radius:22px;
-}
-#filtre3
-{
-    border: 0.1px solid;
-    border-radius:22px;
-}
-#filtre4
+.filtre
 {
     border: 0.1px solid;
     border-radius:22px;
