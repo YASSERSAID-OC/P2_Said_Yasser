@@ -3,13 +3,13 @@ body, html
     font-family: 'Raleway', sans-serif;
 
 }
-ul
+.ul1
 {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
 }
-.nav
+.nav1
 {
     margin-right: 60px;
     text-decoration: none;
@@ -20,6 +20,18 @@ ul
     width: 10%;
     color: #0065FC;
 }
+.ul2
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.filtre2
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 #logo
 {
     height: 2px;
@@ -28,7 +40,7 @@ ul
 }
 #Localisation
 {
-    margin: 0;
+    padding-right: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,6 +50,7 @@ ul
 }
 #Filtres
 {
+    margin-right: 60px;
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
@@ -76,7 +89,7 @@ ul
 #background1
 {
     background-color: #F2F2F2;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 #conteneur1
@@ -107,7 +120,7 @@ ul
 #background2
 {
     background-color: #F2F2F2;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 #conteneur2
