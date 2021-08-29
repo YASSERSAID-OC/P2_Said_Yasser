@@ -18,6 +18,7 @@ ul
     justify-content: space-around;
     align-items: center;
     width: 10%;
+    color: #0065FC;
 }
 #logo
 {
@@ -72,6 +73,12 @@ ul
     color: #0065FC;
 }
 
+#background1
+{
+    background-color: #F2F2F2;
+    opacity: 0.3;
+}
+
 #conteneur1
 {
     width: 60%;
@@ -95,6 +102,12 @@ ul
 .etoile
 {
     color: #0065FC;
+}
+
+#background2
+{
+    background-color: #F2F2F2;
+    opacity: 0.3;
 }
 
 #conteneur2
