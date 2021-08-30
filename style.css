@@ -44,37 +44,45 @@ h2
 {
     height: 2px;
     padding-top: 15px;
-    margin-left: 20px;
 }
 #Localisation
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border: 0.1px solid;
-    border-radius:22px;
-    width: 20%;
+    border-radius:20px;
+    width: 22%;
     font-weight: bold;
 }
 .gps
 {
-
+    
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ville
 {
-    
-    border-left: 1px solid black;
     border-right: 1px solid black;
-    height: 50px; 
+    border-left: 1px solid black;
+    height: 50px;
+    display: flex;
     display: inline-block;
+    padding-right: 15%;
+    justify-content: center;
 }
 .recherche
 {
-    border-right: 1px solid black;
+    
     height: 50px;
+    display: flex;
     display: inline-block;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    margin-left: 10%;
 }
 
 #Filtres
@@ -90,7 +98,7 @@ h2
 #filtre
 {
     border: 1px solid;
-    border-radius:22px;
+    border-radius:30px;
     margin: 15px;
     align-items: center;
 }
@@ -121,6 +129,7 @@ h2
 {
     background-color: #F2F2F2;
     opacity: 1;
+    border-radius:15px;
 }
 
 #conteneur1
@@ -152,16 +161,15 @@ h2
 {
     background-color: #F2F2F2;
     opacity: 1;
+    border-radius:15px;
 }
 
 #conteneur2
 {
     width: 15%;
-    border: 2px solid green;
-    border-radius:20px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 .article2
@@ -178,8 +186,7 @@ h2
 #conteneur3
 {
     width: 100%;
-    border: 2px solid green;
-    border-radius:20px;
+    border: 1px solid; black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -195,7 +202,15 @@ footer
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    background-color: #F2F2F2;
+    opacity: 1;
+}
+#basdepage
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
     background-color: #F2F2F2;
     opacity: 1;
 }
