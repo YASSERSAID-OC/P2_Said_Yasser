@@ -3,19 +3,28 @@ body, html
     font-family: 'Raleway', sans-serif;
 
 }
-#titre1
+h1
 {
-    font-size: 0.8em; /* Titres de 40 pixels */
+    font-size: 22px; /* Titres de 22 pixels */
+    font-weight: bold;
 }
 h2
 {
-    font-size: 1em; /* Titres de 40 pixels */
+    font-size: 15px; /* Titres de 15 pixels */
+}
+h3
+{
+    font-size: 18px; /* Titres de 18 pixels */
+    font-weight: bold;
 }
 .ul1
 {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-left: 70%;
+    margin-right: 5%;
+    align-items: center;
 }
 .nav1
 {
@@ -59,31 +68,30 @@ h2
 {
     border-right: 1px solid black;
     height: 50px;
-    width: 5%;
     display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1%;
-    padding-right: 5%;
+    padding-right: 6.5%;
 }
 .ville
 {
-    width: 70%;
     display: flex;
     display: inline-block;
     justify-content: center;
     margin-left: 2%;
+    margin-right: 12%;
+    padding-left: 3%;
 }
 .recherche
 {
     border-left: 1px solid black;
     height: 50px;
-    width: 25%;
     display: flex;
     display: inline-block;
     justify-content: center;
     align-items: center;
+    padding-left: 3%;
 }
 
 #Filtres
@@ -92,21 +100,36 @@ h2
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
-    width: 70%;
+    width: 90%;
+    height: 90%;
     align-items: center;
+    font-weight: bold;
+
 }
 
 #filtre
 {
     border: 1px solid;
-    border-radius:30px;
-    margin: 15px;
+    border-radius: 30px;
+    margin-top: 14px;
     align-items: center;
+    margin: 16px;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
     color: #0065FC;
+    background-color: #DEEBFF;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    
+    border: 1px solid;
+    border-radius: 45px;
+    background-color: #DEEBFF;
+    width: 30px;
+    height: 30px;
+    align-items: center;
 }
 
 #Infos
@@ -130,10 +153,7 @@ h2
     font-size: 0.6em;
     color: #0065FC;
 }
-.cover 
-{
-    object-fit: cover;
-}
+
 #background1
 {
     background-color: #F2F2F2;
@@ -161,6 +181,7 @@ h2
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 170px;
+    object-fit: cover;
 }
 .etoile
 {
@@ -192,6 +213,7 @@ h2
     height: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    object-fit: cover;
 }
 #conteneur3
 {
@@ -206,21 +228,58 @@ h2
 {
     width: 100%;
 }
-footer
+
+.article3 /* vieux port et parc national des calanques */
 {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F2F2F2;
-    opacity: 1;
+    width: 100%;
+    height: 100%;
 }
+#vieux
+{
+    width: 100%;
+    height: 100%;
+}
+#parc
+{
+    width: 100%;
+    height: 100%;
+}
+.article4 /* Fort de pomègues et iles du frioul */
+{
+    width: 100%;
+    height: 100%;
+}
+#fort
+{
+    width: 100%;
+    height: 100%;;
+}
+.article5 /*Notre dame de la garde et parc long champ*/
+{
+    width: 100%;
+    height: 100%;
+}
+#notre
+{
+    width: 100%;
+    height: 100%;
+}
+
 #basdepage
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    background-color: #F2F2F2;
+    opacity: 1;
+}
+footer
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #F2F2F2;
     opacity: 1;
 }
