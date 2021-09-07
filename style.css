@@ -68,35 +68,45 @@ h3
 {
     border-right: 1px solid black;
     height: 50px;
+    width: 15%;
     display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 6.5%;
     background-color: #F2F2F2;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
 }
 .ville
 {
+    height: 50px;
+    width: 55%;
     display: flex;
     display: inline-block;
     justify-content: center;
-    margin-left: 2%;
-    margin-right: 12%;
-    padding-left: 3%;
+}
+.villetxt
+{
+    margin-left: 12px;
+}
+.recherchetxt
+{
+   text-align: center;
 }
 .recherche
 {
     border-left: 1px solid black;
     height: 50px;
+    width: 40%;
     display: flex;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    padding-left: 3%;
     color: #DEEBFF;
     background-color: #0065FC;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
-
 #Filtres
 {
     margin-right: 60px;
