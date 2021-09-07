@@ -59,14 +59,14 @@ h3
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #F2F2F2;
     border-radius:20px;
     width: 25%;
     font-weight: bold;
 }
 .gps
 {
-    border-right: 1px solid black;
+    border-right: 1px solid #F2F2F2;
     height: 50px;
     width: 15%;
     display: inline-block;
@@ -95,7 +95,7 @@ h3
 }
 .recherche
 {
-    border-left: 1px solid black;
+    border-left: 1px solid #F2F2F2;
     height: 50px;
     width: 40%;
     display: flex;
@@ -109,6 +109,7 @@ h3
 }
 #Filtres
 {
+    margin: 10px;
     margin-right: 60px;
     list-style-type: none;
     display: flex;
@@ -122,11 +123,15 @@ h3
 
 #filtre
 {
-    border: 1px solid;
+    border: 1px solid #DEEBFF;
     border-radius: 30px;
     margin-top: 14px;
     align-items: center;
-    margin: 16px;
+    margin: 21px;
+}
+.filtrestxt
+{
+    margin: 18px;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
@@ -138,16 +143,19 @@ h3
 {
     border-radius: 45px;
     background-color: #DEEBFF;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    padding-left: 18px;
 }
 
 #Infos
 {
-    margin: 0;
+    padding-bottom: 35px;
+    margin: 5px;
     display: flex;
     align-items: center;
     
@@ -171,7 +179,7 @@ h3
 {
     width: 90%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #HébergementsàMarseille
@@ -188,14 +196,21 @@ h3
     width: 776px;
     height: 688px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 50px;
 }
 .article1
 {
-    width: 30%;
-    justify-content: space-between;
+    width: 32%;
+    justify-content: space-around;
     align-items: center;
+    margin: -20px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: white;
 }
 .img1
 {
@@ -257,6 +272,8 @@ h3
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .article3 /* vieux port et parc national des calanques */
