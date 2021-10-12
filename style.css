@@ -18,6 +18,28 @@ h3
     font-size: 18px; /* Titres de 18 pixels */
     font-weight: bold;
 }
+/* ------- FLEX PREDEFINIS ------- */
+
+.flexWrap 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexColumn 
+{
+    display: flex;
+    flex-direction: column;
+}
+.flexRow 
+{
+    display: flex;
+    flex-direction: row;
+}    
+.flexBetween 
+{
+    display: flex;
+    justify-content: space-between;
+}
 /* ------- EN TETE ------- */
 .ul1
 {
@@ -300,7 +322,7 @@ h3
 
 /*  IMAGES ACTIVITES */
 
-#ActivitésàMarseille .img 
+#Activites img 
 {
     height: 100%;
     border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
