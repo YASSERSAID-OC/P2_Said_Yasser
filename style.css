@@ -79,6 +79,13 @@ h3
     padding-top: 15px;
 }
 
+#survol:hover
+
+{
+    text-decoration: underline;
+    color: green;
+}
+
 /* ------- RECHERCHES ------- */
 
 #Localisation
