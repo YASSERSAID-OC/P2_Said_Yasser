@@ -79,6 +79,12 @@ h3
     padding-top: 15px;
 }
 
+#survol:hover
+{
+    text-decoration: underline;
+    color: green;
+}
+
 /* ------- RECHERCHES ------- */
 
 #Localisation
@@ -328,26 +334,32 @@ h3
 #vieuxport 
 {
     height: 27.75rem;
+    object-fit: cover;
 }
 #pomegues 
 {
     height: 14.75rem;
+    object-fit: cover;
 }
 #frioul 
 {
     height: 10.25rem;
+    object-fit: cover;
 }
 #calanques 
 {
     height: 27.75rem;
+    object-fit: cover;
 }
 #garde 
 {
     height: 12.125rem;
+    object-fit: cover;
 }
 #longchamp 
 {
     height: 13rem;
+    object-fit: cover;
 }
 .cartesDescriptionActivites 
 {
@@ -357,6 +369,7 @@ h3
     justify-self: end;
     margin-top: -3.625rem;
     background: white;
+    object-fit: cover;
 }
 #Activites h3 
 {
@@ -367,6 +380,7 @@ h3
 {
     display: flex;
     flex-wrap: wrap;
+    object-fit: cover;
 }
 #bloc3CartesActivites1,
 #bloc3CartesActivites2 
