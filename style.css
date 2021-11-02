@@ -211,94 +211,144 @@ h3
     color: #0065FC;
 }
 
-/* ------- Conteneur Marseille et Les plus populaires ------- */
-
-#ConteneurMarseilleetLespluspopulaires
-{
-    width: 90%;
+/*  ------- HEBERGEMENTS ------- */
+#Logements {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin: 2rem 2rem 1rem;
 }
-
-/* ------- HEBERGEMENTS A MARSEILLE ------- */
-
-#HébergementsàMarseille
-{
-    background-color: #F2F2F2;
-    opacity: 1;
-    border-radius:15px;
-    width: 70%;
-    height: 50%;
+#Logements p {
+    font-size: 0.875rem;
 }
-
-#conteneur1
-{
-    width: 75%;
+#Hebergements {
+    padding: 1.5rem;
+    background-color: #f2f2f2;
+    border-radius: 1.25rem;
+}
+#titreHeberg {
+    margin: 1rem 1.125rem 0.5rem;
+    font-size: 1.37rem;
+}
+#AfficherPlus h3 {
+    font-size: 1.125rem;
+    margin: 1.5rem 1.25rem;
+}
+.cartesHebergements {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 50px;
-}
-.article1
-{
-    width: 32%;
-    justify-content: space-around;
-    align-items: center;
-    margin: -20px;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 18px;
+    flex-direction: column;
+    width: 15.375rem;
+    height: 12.375rem;
+
+    padding: 0.3125rem;
+    margin: 1rem;
+    border-radius: 1.25rem;
     background-color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.img1
-{
+.cartesHebergements:hover,
+.cartesPopulaires:hover,
+#Activites .cartes:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+}
+
+.imgHebergements {
     width: 100%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 170px;
-    object-fit: cover;
+    height: 7.125rem;
+    border-radius: 1rem 1rem 0 0;
 }
-/* ------- ETOILE ------- */
-.etoile
-{
-    color: #0065FC;
+.carteDescription {
+    flex-direction: column;
+
+    margin: 0.25rem 0.5rem 0 0.5rem;
+}
+.carteDescription > * {
+    padding: 0;
+    margin: 0.25em 0.25rem;
+}
+#Hebergements .rating {
+    align-items: center;
+    font-size: 0.75rem;
+    margin: 0.5rem 0.25rem;
+}
+.rating i {
+    color: #0065fc;
+}
+.greyStar i,
+.greyStar {
+    display: flex;
+    align-items: center;
+    color: #e1e1e1;
 }
 
-/* ------- LES PLUS POPULAIRES ------- */
+/* ------- POPULAIRES ------- */
 
-#Lespluspopulaires
-{
-    background-color: #F2F2F2;
-    opacity: 1;
-    border-radius:15px;
-    width: 25%;
-    height: 50%;
-}
-
-#conteneur2
-{
-    width: 35%;
+#Populaires {
+    width: 420px;
+    padding: 2.25rem;
+    padding-bottom: 1.25rem;
+    margin-left: 2.5rem;
     display: flex;
     flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 1.25rem;
 }
-.article2
-{
-    width: 100%;
-    height: 100%;
+#titrePopulaires {
+    margin: 0.25rem 0 0.5rem 0;
+}
+h2 {
+    font-size: 1.37rem;
+}
+#titrePopulaires i {
     display: flex;
-    text-align: end;
-    text-justify: initial;
-    flex-direction: column;
-    justify-content: left;
+    align-items: center;
+    font-size: 1.37rem;
 }
-.img2
+#cartesPopulairesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartesPopulaires {
+    display: flex;
+    flex-direction: row;
+    width: 21.5rem;
+
+    height: 9rem;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3125rem;
+
+    background: white;
+    border-radius: 1.25rem;
+
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s;
+}
+.imgPopulaires {
+    width: 8rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.carteDescriptionPopulaires {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem 0.75rem;
+}
+
+.descriptionTexte > * {
+    padding: 0;
+    margin: 0.25rem 0.5rem;
+    margin-top: 0.5em;
+}
+h3 
 {
-    width: 50%;
-    height: 30%;
-    object-fit: cover;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
+    font-size: 1rem;
+}
+#Populaires .rating
+{
+    font-size: 0.75rem;
+    margin: 0.5rem;
+    margin-bottom: 0.25em;
 }
 /* ------- ACTIVITES ------- */
 
