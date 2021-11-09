@@ -79,15 +79,32 @@ h3
     padding-top: 15px;
 }
 
-#linkHebergements 
-{
+#linkHebergements {
     padding-left: 1.75rem;
     padding-right: 1.375rem;
 }
-.activeLink 
-{
+.activeLink {
     font-weight: 500;
     color: #0065fc;
+}
+a:visited {
+    text-decoration: none;
+}
+#linkActivites {
+    padding-left: 2.75rem;
+    padding-right: 2.5rem;
+    border-top: 0.125rem solid transparent;
+}
+header nav li a:hover,
+.activeLink,
+#linkActivites:hover {
+    color: #0065fc;
+    border-top: 0.125rem solid #0065fc;
+}
+a 
+{
+    text-decoration: none;
+    color: black;
 }
 
 /* ------- RECHERCHES ------- */
@@ -175,23 +192,6 @@ h3
     margin: 18px;
 }
 
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-{
-    color:#0065FC;
-    background-color: #DEEBFF;
-}
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-{
-    border-radius: 45px;
-    background-color: #DEEBFF;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-left: 18px;
-}
 /* ------- INFOS ------- */
 #Infos
 {
@@ -291,7 +291,8 @@ h3
 {
     color: #0065fc;
 }
-.greyStar i,.greyStar 
+.greyStar i,
+.greyStar 
 {
     display: flex;
     align-items: center;
@@ -366,8 +367,7 @@ h2
     margin: 0.25rem 0.5rem;
     margin-top: 0.5em;
 }
-h3 
-{
+h3 {
     font-size: 1rem;
 }
 #Populaires .rating 
@@ -377,148 +377,9 @@ h3
     margin-bottom: 0.25em;
 }
 
-/*  ------- HEBERGEMENTS ------- */
-#Logements {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    margin: 2rem 2rem 1rem;
-}
-#Logements p {
-    font-size: 0.875rem;
-}
-#Hebergements {
-    padding: 1.5rem;
-    background-color: #f2f2f2;
-    border-radius: 1.25rem;
-}
-#titreHeberg {
-    margin: 1rem 1.125rem 0.5rem;
-    font-size: 1.37rem;
-}
-#AfficherPlus h3 {
-    font-size: 1.125rem;
-    margin: 1.5rem 1.25rem;
-}
-.cartesHebergements {
-    display: flex;
-    flex-direction: column;
-    width: 15.375rem;
-    height: 12.375rem;
-
-    padding: 0.3125rem;
-    margin: 1rem;
-    border-radius: 1.25rem;
-    background-color: white;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.cartesHebergements:hover,
-.cartesPopulaires:hover,
-#Activites .cartes:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
-}
-
-.imgHebergements {
-    width: 100%;
-    height: 7.125rem;
-    border-radius: 1rem 1rem 0 0;
-}
-.carteDescription {
-    flex-direction: column;
-
-    margin: 0.25rem 0.5rem 0 0.5rem;
-}
-.carteDescription > * {
-    padding: 0;
-    margin: 0.25em 0.25rem;
-}
-#Hebergements .rating {
-    align-items: center;
-    font-size: 0.75rem;
-    margin: 0.5rem 0.25rem;
-}
-.rating i {
-    color: #0065fc;
-}
-.greyStar i,
-.greyStar {
-    display: flex;
-    align-items: center;
-    color: #e1e1e1;
-}
-
-/* ------- POPULAIRES ------- */
-
-#Populaires {
-    width: 420px;
-    padding: 2.25rem;
-    padding-bottom: 1.25rem;
-    margin-left: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    border-radius: 1.25rem;
-}
-#titrePopulaires {
-    margin: 0.25rem 0 0.5rem 0;
-}
-h2 {
-    font-size: 1.37rem;
-}
-#titrePopulaires i {
-    display: flex;
-    align-items: center;
-    font-size: 1.37rem;
-}
-#cartesPopulairesContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-.cartesPopulaires {
-    display: flex;
-    flex-direction: row;
-    width: 21.5rem;
-
-    height: 9rem;
-    margin: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.3125rem;
-
-    background: white;
-    border-radius: 1.25rem;
-
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
-    transition: all 0.3s;
-}
-.imgPopulaires {
-    width: 8rem;
-    border-radius: 1rem 0 0 1rem;
-}
-.carteDescriptionPopulaires {
-    display: flex;
-    flex-direction: column;
-    margin: 0.25rem 0.75rem;
-}
-
-.descriptionTexte > * {
-    padding: 0;
-    margin: 0.25rem 0.5rem;
-    margin-top: 0.5em;
-}
-h3 
-{
-    font-size: 1rem;
-}
-#Populaires .rating
-{
-    font-size: 0.75rem;
-    margin: 0.5rem;
-    margin-bottom: 0.25em;
-}
 /* ------- ACTIVITES ------- */
 
-#Activite
+#Activites 
 {
     padding: 1rem;
     margin-top: 2rem;
@@ -539,9 +400,7 @@ h3
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-
 /*  IMAGES ACTIVITES */
-
 #Activites img 
 {
     height: 100%;
@@ -550,32 +409,26 @@ h3
 #vieuxport 
 {
     height: 27.75rem;
-    object-fit: cover;
 }
 #pomegues 
 {
     height: 14.75rem;
-    object-fit: cover;
 }
 #frioul 
 {
     height: 10.25rem;
-    object-fit: cover;
 }
 #calanques 
 {
     height: 27.75rem;
-    object-fit: cover;
 }
 #garde 
 {
     height: 12.125rem;
-    object-fit: cover;
 }
 #longchamp 
 {
     height: 13rem;
-    object-fit: cover;
 }
 .cartesDescriptionActivites 
 {
@@ -585,7 +438,6 @@ h3
     justify-self: end;
     margin-top: -3.625rem;
     background: white;
-    object-fit: cover;
 }
 #Activites h3 
 {
@@ -596,13 +448,13 @@ h3
 {
     display: flex;
     flex-wrap: wrap;
-    object-fit: cover;
 }
 #bloc3CartesActivites1,
 #bloc3CartesActivites2 
 {
     height: 29.75rem;
 }
+
 /* ------- PIED DE PAGE ------- */
 #footer
 {
@@ -621,4 +473,410 @@ footer
     align-items: center;
     background-color: #F2F2F2;
     opacity: 1;
+}
+
+
+
+
+/* ----- MEDIA QUERIES ------ */
+
+
+
+
+@media screen and (max-width: 1439.98px) 
+{
+    body 
+    {
+        width: 100%;
+    }
+    main 
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #filtresContainer 
+    {
+        width: 100%;
+    }
+    
+    #Hebergements 
+    {
+        width: 100%;
+    }
+    #cartesHebergementsContainer 
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #L1, #L2 
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .cartesHebergements 
+    {
+        margin: 1.04vw;
+    }
+    #Populaires 
+    {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    #cartesPopulairesContainer 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cartesPopulaires 
+    {
+        margin: 1.11vw;
+    }
+    #activitesCartesContainer 
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #bloc3CartesActivites1,
+    #bloc3CartesActivites2 
+    {
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    #bloc2CartesActivites1,
+    #bloc2CartesActivites2 
+    {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #Activites .cartes 
+    {
+        height: 11.875rem;
+        margin: 1.52vw 1.45vw;
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    #Logements 
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Hebergements, #Populaires, #Activites 
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #Populaires 
+    {
+        padding: 1.25rem;
+        margin: 0;
+        border-radius: 0;
+    }
+    #Hebergements 
+    {
+        padding: 0;
+        background-color: white;
+    }
+    #Activites 
+    {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    #cartesActivitesContainer 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .cartesHebergements,
+    .cartesPopulaires,
+    #Activites .cartes 
+    {
+        width: 20.875rem;
+    }
+    #bloc3CartesActivites1,
+    #bloc3CartesActivites2 
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    #bloc2CartesActivites1,
+    #bloc2CartesActivites2 
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 799.98px) {
+    #Recherche 
+    {
+        margin: 1rem;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    #titrePopulaires 
+    {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    #cartesHebergementsContainer 
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+    }
+    #L1,
+    #L2 
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    #titreActivites 
+    {
+        margin: 0.75rem 1.125rem 0.5rem;
+    }
+    #cartesPopulairesContainer 
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cartesPopulaires 
+    {
+        margin: 5.5px;
+    }
+    .cartesHebergements 
+    {
+        height: 12.375rem;
+        margin: 6px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+    #Activites .cartes 
+    {
+        height: 11.875rem;
+        margin: 0.75rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+    header 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    #Hebergements 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    #Populaires 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #bloc3CartesActivites1,
+    #bloc3CartesActivites2 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    footer 
+    {
+        margin-top: 1rem;
+    }
+    #NosHebergements 
+    {
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    header nav,
+    header nav li,
+    header a 
+    {
+        height: 3.125rem;
+    }
+    header nav ul * 
+    {
+        margin: 0;
+        width: 100%;
+    }
+    header 
+    {
+        height: 8.25rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #logo 
+    {
+        padding-top: 2.5rem;
+        padding-left: 1.125rem;
+    }
+    header nav 
+    {
+        margin-top: 1.875rem;
+    }
+    header nav,
+    header nav ul 
+    {
+        width: 100%;
+    }
+    header nav li 
+    {
+        width: 50%;
+    }
+    header nav a 
+    {
+        width: 100%;
+    }
+    #linkHebergements 
+    {
+        padding-left: 2.375rem;
+        padding-right: 2.25rem;
+    }
+    #linkActivites 
+    {
+        padding-left: 3.75rem;
+        padding-right: 4rem;
+        border-bottom: 0.125rem solid #f2f2f2;
+    }
+    header nav li a:hover,
+    .activeLink,
+    #linkActivites:hover 
+    {
+        color: #0065fc;
+        border-top: none;
+        border-bottom: 0.1875rem solid #0065fc;
+    }
+    #inscription 
+    {
+        padding-top: 1.5rem;
+        padding-right: 1.3125rem;
+        position: absolute;
+        right: 0;
+        top: 0.75rem;
+    }
+    #titreRecherche 
+    {
+        font-size: 1.37rem;
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+    #Recherche p 
+    {
+        margin: 0.75em 0 2.25rem;
+    }
+    form {
+        width: 20.875rem;
+    }
+    .searchButton 
+    {
+        display: none;
+    }
+    .searchButtonIcon 
+    {
+        display: inline;
+    }
+    #titreFiltres 
+    {
+        margin: 1.125rem 1.25rem 0.75rem 0.25rem;
+    }
+    #Filtres a 
+    {
+        margin: 3px 7px 10px 0;
+    }
+    .filtres h3 
+    {
+        font-size: 1rem;
+        margin: 0.75rem 1.125rem 0.75rem 0.75rem;
+    }
+    #info p 
+    {
+        margin: 0.5rem 0 1.125rem 0.25rem;
+    }
+    #Logements 
+    {
+        margin: 0;
+    }
+    #Populaires 
+    {
+        padding-top: 2.25rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-bottom: 2rem;
+    }
+    #titrePopulaires 
+    {
+        margin-bottom: 1.125rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #Hebergements 
+    {
+        padding: 0 1.25rem 0 1.25rem;
+        margin-top: 1rem;
+    }
+    #titreHeberg 
+    {
+        margin-top: 1.25rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+    #AfficherPlus h3 
+    {
+        margin: 0;
+    }
+    #AfficherPlus 
+    {
+        margin: 2rem 0 0 0rem;
+    }
+    #Activites 
+    {
+        margin-top: 1.125rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    #titreActivites 
+    {
+        margin: 1.125rem 0.125rem 0.875rem;
+    }
+    .cartesHebergements,
+    .cartesPopulaires,
+    #Activites .cartes 
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
