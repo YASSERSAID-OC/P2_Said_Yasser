@@ -79,10 +79,19 @@ h3
     padding-top: 15px;
 }
 
-#survol:hover
+#linkHebergements 
 {
-    text-decoration: underline;
-    color: green;
+    padding-left: 1.75rem;
+    padding-right: 1.375rem;
+}
+.activeLink 
+{
+    font-weight: 500;
+    color: #0065fc;
+}
+a:visited 
+{
+    text-decoration: none;
 }
 
 /* ------- RECHERCHES ------- */
