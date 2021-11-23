@@ -192,6 +192,23 @@ a
     margin: 18px;
 }
 
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    border-radius: 45px;
+    background-color: #DEEBFF;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 18px;
+}
 /* ------- INFOS ------- */
 #Infos
 {
