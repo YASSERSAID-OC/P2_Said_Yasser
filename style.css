@@ -14,6 +14,9 @@ h3
     font-size: 18px; /* Titres de 18 pixels */
     font-weight: bold;
 }
+.fa-star-grey{
+    color: #d9d9d9;
+}
 /* ------- FLEX PREDEFINIS ------- */
 
 .flexWrap 
@@ -229,162 +232,144 @@ a
     color: #0065FC;
 }
 
-/*  ------- HEBERGEMENTS ------- */
-#Logements 
-{
-    width: 100%;
+/*Hébergement*/
+#house{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 3%;
+    height: 805px;
+}
+
+#house h3:last-child{
+    font-size: 1.4em;
+    margin: 5% 0px 0px 5px;
+}
+
+aside, article{
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 2.9%;
+}
+
+.popular-box, .house-box{
+    height: 91%;
     display: flex;
     justify-content: space-between;
 }
-#Logements p 
-{
-    font-size: 0.875rem;
-}
-#Hebergements 
-{
-    padding: 1.5rem;
-    background-color: #f2f2f2;
-    border-radius: 1.25rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-#titreHeberg 
-{
-    margin: 1rem 1.125rem 0.5rem;
-    font-size: 1.37rem;
-}
-#AfficherPlus h3 
-{
-    font-size: 1.125rem;
-    margin: 1.5rem 1.25rem;
-}
-.cartesHebergements 
-{
-    display: flex;
-    flex-direction: column;
-    width: 15.375rem;
-    height: 12.375rem;
 
-    padding: 0.3125rem;
-    margin: 1rem;
-    border-radius: 1.25rem;
+.popular-box figure, .house-box figure{
+    margin: 0px;
+    border: 5px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.popular-box figcaption, .house-box figcaption{
     background-color: white;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.cartesHebergements:hover,
-.cartesPopulaires:hover,
-#Activites .cartes:hover 
-{
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
 }
 
-.imgHebergements 
-{
-    width: 100%;
-    height: 7.125rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
+.popular-box figcaption h3, .house-box figcaption h3{
+    font-size: 1.3em;
 }
-.carteDescription 
-{
-    flex-direction: column;
 
-    margin: 0.25rem 0.5rem 0 0.5rem;
+.popular-box figcaption p, .house-box figcaption p{
+    font-size: 1.1em;
 }
-.carteDescription > * 
-{
-    padding: 0;
-    margin: 0.25em 0.25rem;
-}
-#Hebergements .rating 
-{
-    align-items: center;
-    font-size: 0.75rem;
-    margin: 0.5rem 0.25rem;
-}
-.rating i 
-{
-    color: #0065fc;
-}
-/* ------- POPULAIRES ------- */
 
-#Populaires 
-{
-    width: 420px;
-    padding: 2.25rem;
-    padding-bottom: 1.25rem;
-    margin-left: 2.5rem;
+.stars{
     display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    border-radius: 1.25rem;
-}
-#titrePopulaires 
-{
-    margin: 0.25rem 0 0.5rem 0;
-}
-h2 
-{
-    font-size: 1.0rem;
-}
-#titrePopulaires i 
-{
-    display: flex;
-    align-items: center;
-    font-size: 1.37rem;
-}
-#cartesPopulairesContainer 
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-.cartesPopulaires 
-{
-    display: flex;
-    flex-direction: row;
-    width: 21.5rem;
-
-    height: 9rem;
-    margin: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.3125rem;
-
-    background: white;
-    border-radius: 1.25rem;
-
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
-    transition: all 0.3s;
-}
-.imgPopulaires 
-{
-    width: 8rem;
-    border-radius: 1rem 0 0 1rem;
-    object-fit: cover;
-}
-.carteDescriptionPopulaires 
-{
-    display: flex;
-    flex-direction: column;
-    margin: 0.25rem 0.75rem;
+    color: #0065FC;
 }
 
-.descriptionTexte > * 
-{
-    padding: 0;
-    margin: 0.25rem 0.5rem;
-    margin-top: 0.5em;
-}
-h3 {
-    font-size: 1rem;
-}
-#Populaires .rating 
-{
-    font-size: 0.75rem;
-    margin: 0.5rem;
-    margin-bottom: 0.25em;
-}
+/*Les plus populaires*/
+    aside{
+        width: 25.5%;
+    }
+
+    /*Titre*/
+        .popular-title{
+            margin: 3px 0px 31px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .fa-chart-line{
+            color: black;
+        }
+
+    /*Contenu*/
+        .popular-box{
+            flex-direction: column;
+        }
+
+        .popular-box img{
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .popular-box figure{
+            height: 27%;
+            justify-content: flex-end;
+        }
+
+        .popular-box figcaption{
+            min-width: 50%;
+            padding: 0px 25px 0px 25px;
+        }
+
+        .popular-box figcaption h3{
+            margin: 15px 0px 0px 0px;
+        }
+
+        .popular-box figcaption p{
+            margin: 10px 0px 24% 0px;
+        }
+
+/*Hébergement à Marseille*/
+
+    article{
+        width: 60%;
+    }
+
+    /*Titre*/
+
+        article h2{
+            margin: 3px 0px 30px 0px;
+        }
+
+    /*Contenu*/
+        .house-box{
+            height: 78.5%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+
+        .house-box figure{
+            width: 29.5%;
+            height: 45%;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .house-box figcaption{
+            width: 100%;
+            min-height: 41%;
+            padding: 0px 10px 0px 10px;
+            border-radius: 0px 0px 15px 15px;
+        }
+
+        .house-box figcaption h3{
+            margin: 10px 0px 0px 0px;
+        }
+
+        .house-box figcaption p{
+            margin: 7px 0px 10px 0px;
+        }
 
 /* ------- ACTIVITES ------- */
 
