@@ -9,10 +9,6 @@ h1
     font-size: 22px; /* Titres de 22 pixels */
     font-weight: bold;
 }
-h2
-{
-    font-size: 1.5em; /* Titres de 15 pixels */
-}
 h3
 {
     font-size: 18px; /* Titres de 18 pixels */
@@ -311,14 +307,6 @@ a
 {
     color: #0065fc;
 }
-.greyStar i,
-.greyStar 
-{
-    display: flex;
-    align-items: center;
-    color: #e1e1e1;
-}
-
 /* ------- POPULAIRES ------- */
 
 #Populaires 
@@ -338,7 +326,7 @@ a
 }
 h2 
 {
-    font-size: 1.37rem;
+    font-size: 1.0rem;
 }
 #titrePopulaires i 
 {
