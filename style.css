@@ -39,197 +39,215 @@ h3
     display: flex;
     justify-content: space-between;
 }
-/* ------- EN TETE ------- */
-.ul1
+/* Header */
+
+header
 {
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-left: 70%;
-    margin-right: 5%;
-    align-items: center;
+    align-items: flex-end;
 }
-.nav1
+
+.logo
 {
-    margin-right: 60px;
-    text-decoration: none;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 10%;
-    color: #0065FC;
+    float: left;
+    width: 150px;
 }
-.ul2
+
+/* Navigation */
+
+#inscriremobile
+{
+    display: none;
+}
+
+.headernav ul
 {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-}
-.filtre2
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-#logo
-{
-    height: 2px;
-    padding-top: 15px;
-}
-
-#linkHebergements {
-    padding-left: 1.75rem;
-    padding-right: 1.375rem;
-}
-.activeLink {
-    font-weight: 500;
-    color: #0065fc;
-}
-a:visited {
-    text-decoration: none;
-}
-#linkActivites {
-    padding-left: 2.75rem;
-    padding-right: 2.5rem;
-    border-top: 0.125rem solid transparent;
-}
-header nav li a:hover,
-.activeLink,
-#linkActivites:hover {
-    color: #0065fc;
-    border-top: 0.125rem solid #0065fc;
-}
-a 
-{
-    text-decoration: none;
-    color: black;
-}
-
-/* ------- RECHERCHES ------- */
-
-#Localisation
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #F2F2F2;
-    border-radius:20px;
-    width: 25%;
-    font-weight: bold;
-}
-.gps
-{
-    border-right: 1px solid #F2F2F2;
-    height: 50px;
-    width: 15%;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F2F2F2;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-}
-.ville
-{
-    height: 50px;
-    width: 55%;
-    display: flex;
-    display: inline-block;
-    justify-content: center;
-}
-.villetxt
-{
-    margin-left: 12px;
-}
-.recherchetxt
-{
-   text-align: center;
-}
-.recherche
-{
-    border-left: 1px solid #F2F2F2;
-    height: 50px;
-    width: 40%;
-    display: flex;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    color: #DEEBFF;
-    background-color: #0065FC;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-}
-
-/* ------- FILTRES ------- */
-
-#Filtres
-{
-    margin: 10px;
-    margin-right: 60px;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    width: 90%;
-    height: 90%;
-    align-items: center;
-    font-weight: bold;
-
-}
-
-#filtre
-{
-    border: 1px solid #DEEBFF;
-    border-radius: 30px;
-    margin-top: 14px;
-    align-items: center;
-    margin: 21px;
-}
-.filtrestxt
-{
-    margin: 18px;
-}
-
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-{
-    color:#0065FC;
-    background-color: #DEEBFF;
-}
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-{
-    border-radius: 45px;
-    background-color: #DEEBFF;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-left: 18px;
-}
-/* ------- INFOS ------- */
-#Infos
-{
-    padding-bottom: 35px;
-    margin: 5px;
-    display: flex;
-    align-items: center;
     
 }
 
-#complementaires
+.headernav li
 {
-    border: 3px solid;
-    border-color: #F2F2F2;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.headernav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    line-height: 20px;
+    padding-top: 35px;
+    padding-left: 10px;
+    border-top: 2px solid transparent;
+}
+
+.headernav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    line-height: 20px;
+    padding-top: 35px;
+}
+#inscrire
+{
+    color: #0065FC;
+}
+
+/* Titres et Barre de recherche */
+
+#titre
+{
+    font-size: 2em;
+}
+
+#sous_titre
+{
+    margin-top: -10px;
+    font-size: 1em;
+}
+
+#search
+{
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: left;
+    vertical-align: baseline;
+    align-content: flex-start;
+    border: none;
+    margin: auto;
+    overflow: auto;
+    border-collapse: collapse;
+    border: 2px solid #f2f2f2;
+    border-radius: 15px 15px 15px 15px;
+}
+#cadrelocalisation
+{
+    width: 20px;
+    font-size: 15px;
+    background-color:  #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    padding: 12px;
+}
+
+
+#textederecherche
+{
+    display: inline;
+    padding: 12px;
+    width: 210px;
+    font-size: 100%;
+    font-weight: bold;
+    border: none;
+}
+
+.boutonrecherche
+{
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  #F2F2F2;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #0065fc;
+    color: white;
+}
+
+.boutonrecherche:hover
+{
+    background-color: #deebff;
+    color: #0065fc;
+}
+
+.boutonrecherche i
+{
+    display: none;
+}
+
+/* Filtres */
+
+#conteneurfiltre
+{
+ display: flex;
+ margin-top: 30px;
+ align-items: center;
+    font-weight: bold;
+}
+
+.retour_mobile
+{
+    display: none;
+}
+
+.filtre 
+{
+    display: inline-block;
+    border: 2px solid #f2f2f2;
+ padding-right: 16px;
+ border-radius: 30px;
+    margin-left: 30px;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+.filtre:hover
+{
+    background-color: #f3f8ff;
+    transform: scale(1.015);
+}
+.filtre i 
+{
+    padding: 16px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #0065FC;
+    background-color: #deebff;
+    margin-left: -2px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border: 1px solid #cad7eb;
+    width: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filtre:hover i
+{
+    color: #deebff;
+    background-color: #0065FC;
+}
+
+#info
+{
+    margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius:15px;
-    height: 20px;
-    width: 20px;
-    font-size: 0.6em;
-    color: #0065FC;
+}
+
+#info i
+{
+    border: 2px solid #F2F2F2;
+    padding: 8px;
+    border-radius: 100%;
+    color: #0065fc;
+    text-align: center;
+    width: 12px;
+    margin-right: 15px;
+    font-size: 12px;  
+}
+
+#info i:hover
+{
+    color: #deebff;
+    background-color: #0065FC;
 }
 
 /*Hébergement*/
@@ -468,596 +486,4 @@ footer
     align-items: center;
     background-color: #F2F2F2;
     opacity: 1;
-}
-
-
-/* -------- MEDIA SQUERIES -------- */
-/*modification de L'hébergement car trop petit*/
-@media screen and (max-width: 1530px) {
-	/*Filtres*/
-		#box-filters{
-			width: 80%;
-		}
-
-	/*Hébergement*/
-		#house{
-			height: 950px;
-		}
-
-		/*Les plus populaires*/
-			aside{
-				width: 35%;
-			}
-
-			.popular-box figcaption h3 {
-				font-size: 1.45em;
-				margin: 20px 0px 0px 0px;
-			}
-
-			.popular-box figcaption p {
-				font-size: 1.2em;
-				margin: 20px 0px 25% 0px;
-			}
-
-		/*Hébergement à Marseille*/
-
-			article{
-				width: 50%;
-			}
-
-			/*Contenu*/
-				.house-box{
-					height: 87%;
-				}
-
-				.house-box figure{
-					width: 47%;
-					height: 31%;
-				}
-}
-
-/*Tablette*/
-@media screen and (max-width: 1024px) {
-	/*Style général*/
-		main{
-			margin-top: 220px;
-		}
-
-		p{
-			font-size: 1.2em;
-		}
-
-		h2{
-			font-size: 1.75em;
-		}
-
-
-	/*Header*/
-		header{
-			height: 200px;
-			align-items: flex-start;
-			padding: 0px;
-		}
-
-		#logo{
-			margin: 0% 0% 0% 5%;
-			width: 15%;
-			position: absolute;
-			top: 10%;
-		}
-
-		nav{
-			width: 100%;
-			align-self: flex-end;
-			flex-wrap: wrap-reverse;
-		}
-
-		.navlink{
-			padding: 0% 0% 4.4% 0%;
-			border-top-style: none;
-			border-bottom: 3px #f2f2f2 solid;
-			font-size: 1.25em;
-			width: 33.3%;
-		}
-
-
-	/*Recherche*/
-		/*Slogan*/
-			#slogan h2{
-				font-size: 1.7em;
-				margin-bottom: 0px;
-			}
-
-		/*Formulaire de recherche*/
-			.fa-map-marker-alt{
-				padding: 21px;
-			}
-
-			.search-input{
-				width: 60%;
-				height: 65px;
-				padding-left: 17px;
-				font-size: 1.25em;
-			}
-
-			.search-btn{
-				width: auto;
-				font-size: 1.3em;
-			}
-
-		/*Filtres*/
-			#box-filters{
-				margin-top: 3%;
-				width: 100%;
-			}
-
-			#box-filters p:first-child{
-				padding: 0px 0px 0px 1px;
-				width: 100%;
-				margin-bottom: 5px;
-			}
-
-			.filter{
-				height: 50px;
-				padding-right: 2%;
-				font-size: 1.15em;
-				margin: 16px 0px 0px 0px;
-			}
-
-			.filter i{
-				width: 12px;
-				height: 12px;
-			}
-
-		/*Nombre de résultat*/
-			.nmbresult{
-				margin: 10% 0px 0px 0px;
-			}
-
-			.fa-info-circle{
-				margin-right: 2%;
-			}
-
-
-	/*Hébergement*/
-		#house{
-			flex-direction: column;
-			justify-content: flex-start;
-			margin-top: 7.5%;
-			height: 1700px;
-		}
-
-		#house h3:last-child{
-			font-size: 1.3em;
-			margin: 7.5% 0px 0px 0px;
-		}
-
-		aside, article{
-			border-radius: 0px;
-			padding: 5.5%;
-			width: 89.2%;
-		}
-
-		.popular-box figcaption h3, .house-box figcaption h3{
-			font-size: 1.3em;
-		}
-
-		.popular-box figcaption p, .house-box figcaption p{
-			font-size: 1em;
-		}
-
-		/*Les plus populaires*/
-			aside{
-				height: 35%;
-			}
-			/*Titre*/
-				.popular-title{
-					margin: 10px 0px 29px 0px;
-				}
-
-			/*Contenu*/
-
-				.popular-box{
-				height: 90%;
-					align-items: center;
-				}
-
-				.popular-box figure{
-					height: 30%;
-					width: 98%;
-				}
-
-				.popular-box img{
-					width: 100%;
-				}
-
-				.popular-box figcaption{
-					padding: 0px 18px;
-				}
-
-				.popular-box figcaption p{
-					margin: 10px 0px 15% 0px;
-				}
-
-		/*Hébergement à Marseille*/
-			article{
-				background-color: white;
-				height: 57%;
-			}
-
-			/*Titre*/
-				article h2{
-					margin: 3% 0px 20px 0px;
-				}
-
-			/*Contenu*/
-				.house-box{
-					height: 80%;
-				}
-
-				.house-box figure{
-					width: 47%;
-					height: 30%;
-				}
-
-				.house-box figcaption p{
-					margin: 4px 0px 6px 0px;
-				}	
-
-
-	/*Activité*/
-		#activity{
-			margin-top: 3%;
-			height: 1300px;
-		}
-
-		.activity-box{
-			height: 95%;
-			margin-top: 5%;
-			flex-wrap: wrap;
-		}
-
-		.height-items{
-			width: 48%;
-			height: 48%;
-		}
-
-		.pomeges,.frioul, .garde, .longchamp{
-			height: 48%;
-		}
-
-		.activity-box figcaption {
-			font-size: 1.3em;
-			font-weight: bold;
-			min-height: 15%;
-			display: flex;
-			align-items: center;
-			padding: 0% 7%;
-		}
-
-		.pomeges figcaption, .frioul figcaption, .garde figcaption,	.longchamp figcaption{
-			min-height: 25%;
-		}
-
-
-	/*Footer*/
-		footer{
-			margin-top: 2%;
-			height: 248px;
-			padding: 0% 3.5%;
-		}
-
-		footer div{
-			width: 30%
-		}
-
-		footer h3{
-			font-size: 1.25em;
-		}
-
-		footer p{
-			font-size: 1.15em;
-		}
-}
-
-/*Smartphone*/
-@media screen and (max-width: 600px) {
-	/*Style général*/
-		body{
-			background-color: #FFFFFF;
-		}
-
-		main{
-			width: 100%;
-			margin-top: 220px;
-		}
-
-		p{
-			font-size: 1.085em;
-		}
-
-		h2{
-			font-size: 1.51em;
-		}
-
-		figure{
-			box-shadow: 0px 0px 0px #e7e7e7;
-		}
-
-	/*Header*/
-		header{
-			height: 200px;
-			align-items: flex-start;
-			padding: 0px;
-		}
-
-		#logo{
-			margin: 0% 0% 0% 5%;
-			width: 27%;
-			position: absolute;
-			top: 17%;
-		}
-
-		nav{
-			width: 100%;
-			height: 100%;
-			flex-wrap: wrap-reverse;
-			align-content: space-between;
-		}
-
-		.navlink{
-			padding: 0% 0% 4.4% 0%;
-			border-top-style: none;
-			border-bottom: 3px #f2f2f2 solid;
-			font-size: 1.09em;
-			width: 50%;
-		}
-
-		.navlink-blue{
-			padding: 9.8% 6% 0px 6%;
-			width: auto;
-			position: absolute;
-			right: 0px;
-			border-top: 3px #FFFFFF solid;
-			border-bottom-style: none;
-		}
-
-
-	/*Recherche*/
-		main section:first-child{
-			padding-left: 0px;
-			width: 89%;
-			margin: auto;
-		}
-		/*Slogan*/
-			#slogan h2{
-				font-size: 1.5em;
-				margin-bottom: -2px;
-			}
-
-		/*Formulaire de recherche*/
-			form{
-				margin-top: 38px;
-			}
-
-			.fa-map-marker-alt{
-				padding: 18px 21px;
-				font-size: 1.3em;
-			}
-
-			.search-input{
-				width: 75%;
-				height: 57px;
-				padding-left: 17px;
-				font-size: 1.25em;
-			}
-
-			.search-btn{
-				position: absolute;
-				clip: rect(1px, 1px, 1px, 1px);
-			}
-
-			.fa-search{
-				position: static;
-				clip: auto;
-				color: white;
-				padding: 20px;
-				background-color: #0065FC;
-				border: 0px white none;
-				border-radius: 21px;
-				margin-left: -5%;
-				cursor: pointer;
-			}
-
-			.fa-search:hover{
-				background-color: #c5dcff;
-				color: #0065fc;
-			}
-
-
-		/*Filtres*/
-			#box-filters{
-				margin-top: 4.5%;
-				width: 100%;
-			}
-
-			#box-filters p:first-child{
-				font-size: 19.5px;
-				padding: 0px 0px 0px 1px;
-				width: 100%;
-				margin-bottom: 0px;
-			}
-
-			.filter{
-				height: 50px;
-				padding-right: 6%;
-				font-size: 1.1em;
-				margin: 16px 0px 0px 0px;
-			}
-
-			.filter i{
-				width: 12px;
-				height: 12px;
-			}
-
-		/*Nombre de résultat*/
-			.nmbresult{
-				align-items: flex-start;
-				margin: 10.5% 0px 0px 0px;
-			}
-
-			.fa-info-circle{
-				margin-right: 3%;
-			}
-
-
-	/*Hébergement*/
-		#house{
-			flex-direction: column;
-			justify-content: flex-start;
-			margin-top: 10%;
-			height: 2200px;
-		}
-
-		#house h3:last-child{
-			font-size: 1.25em;
-			margin: 8.5% 0px 0px 0px;
-		}
-
-		aside, article{
-			border-radius: 0px;
-			padding: 5.5%;
-			width: 89.2%;
-		}
-
-		.popular-box figcaption h3, .house-box figcaption h3{
-			font-size: 1.1em;
-		}
-
-		.popular-box figcaption p, .house-box figcaption p{
-			font-size: 0.95em;
-		}
-
-
-		.fa-star{
-			font-size: 0.85em;
-		}
-
-		/*Les plus populaires*/
-			aside{
-				height: 27%;
-			}
-			/*Titre*/
-				.popular-title{
-					margin: 20px 0px 29px 0px;
-				}
-
-			/*Contenu*/
-
-				.popular-box{
-					height: 85%;
-				}
-
-				.popular-box figure{
-					height: 30%;
-				}
-
-				.popular-box figcaption{
-					padding: 0px 18px;
-				}
-
-				.popular-box figcaption h3{
-					margin: 12px 0px 0px 0px;
-				}
-
-				.popular-box figcaption p{
-					margin: 7px 0px 25% 0px;
-				}
-
-		/*Hébergement à Marseille*/
-			article{
-				background-color: white;
-				height: 69%;
-			}
-			/*Titre*/
-
-				article h2{
-					margin: 6% 0px 20px 0px;
-				}
-
-			/*Contenu*/
-				.house-box{
-					height: 91.5%;
-					flex-direction: column;
-					flex-wrap: nowrap;
-				}
-
-				.house-box figure{
-					width: 96%;
-					height: 15.5%;
-				}
-
-				.house-box figcaption p{
-					margin: 5px 0px 8px 0px;
-				}
-
-
-	/*Activité*/
-		#activity{
-			margin-top: 2%;
-			height: 1450px;
-			padding: 5.5%;
-		}
-
-		.activity-box{
-			height: 95.6%;
-			flex-direction: column;
-		}
-
-		.height-items{
-			width: 100%;
-			height: 15%;
-		}
-
-		.box-items{
-			padding-right: 0px;
-			height: 32.5%;
-		}
-
-		.pomeges, .frioul, .garde, .longchamp{
-			height: 48%;
-		}
-
-		.activity-box figcaption, .pomeges figcaption, .frioul figcaption, .garde figcaption, .longchamp figcaption{
-			font-size: 1.1em;
-			min-height: 19%;
-		}
-
-		.height-picture {
-			height: max-content;
-			width: max-content;
-		}
-	
-
-	/*Footer*/
-		footer{
-			margin-top: 6%;
-			height: 468px;
-			padding: 7.6% 0% 11.25% 7.5%;
-			flex-direction: column;
-		}
-
-		footer div{
-			width: auto;
-		}
-
-		footer h3{
-			font-size: 1.24em;
-			margin-bottom: 19px;
-		}
-
-		footer p{
-			font-size: 1.1em;
-			margin: 0px 0px 13.5px 0px;
-		}
 }
