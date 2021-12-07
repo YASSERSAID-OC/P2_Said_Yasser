@@ -251,7 +251,8 @@ header
 }
 
 /*Hébergement*/
-#house{
+#house
+{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -259,24 +260,28 @@ header
     height: 805px;
 }
 
-#house h3:last-child{
+#house h3:last-child
+{
     font-size: 1.4em;
     margin: 5% 0px 0px 5px;
 }
 
-aside, article{
+aside, article
+{
     background-color: #F2F2F2;
     border-radius: 25px;
     padding: 2.9%;
 }
 
-.popular-box, .house-box{
+.popular-box, .house-box
+{
     height: 91%;
     display: flex;
     justify-content: space-between;
 }
 
-.popular-box figure, .house-box figure{
+.popular-box figure, .house-box figure
+{
     margin: 0px;
     border: 5px white solid;
     border-radius: 25px;
@@ -285,109 +290,129 @@ aside, article{
 }
 
 
-.popular-box figcaption, .house-box figcaption{
+.popular-box figcaption, .house-box figcaption
+{
     background-color: white;
 }
 
-.popular-box figcaption h3, .house-box figcaption h3{
+.popular-box figcaption h3, .house-box figcaption h3
+{
     font-size: 1.3em;
 }
 
-.popular-box figcaption p, .house-box figcaption p{
+.popular-box figcaption p, .house-box figcaption p
+{
     font-size: 1.1em;
 }
 
-.stars{
+.stars
+{
     display: flex;
     color: #0065FC;
 }
 
 /*Les plus populaires*/
-    aside{
-        width: 25.5%;
-    }
+    aside
+{
+width: 25.5%;
+}
 
-    /*Titre*/
-        .popular-title{
-            margin: 3px 0px 31px 0px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+/*Titre*/
+.popular-title
+{
+margin: 3px 0px 31px 0px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
 
-        .fa-chart-line{
-            color: black;
-        }
+.fa-chart-line
+{
+color: black;
+}
 
     /*Contenu*/
-        .popular-box{
-            flex-direction: column;
-        }
+.popular-box
+{
+flex-direction: column;
+}
 
-        .popular-box img{
-            flex-direction: column;
-            width: 100%;
-        }
+.popular-box img
+{
+flex-direction: column;
+width: 100%;
+}
 
-        .popular-box figure{
-            height: 27%;
-            justify-content: flex-end;
-        }
+.popular-box figure
+{
+height: 27%;
+justify-content: flex-end;
+}
 
-        .popular-box figcaption{
-            min-width: 50%;
-            padding: 0px 25px 0px 25px;
-        }
+.popular-box figcaption
+{
+min-width: 50%;
+padding: 0px 25px 0px 25px;
+}
 
-        .popular-box figcaption h3{
-            margin: 15px 0px 0px 0px;
-        }
+.popular-box figcaption h3
+{
+margin: 15px 0px 0px 0px;
+}
 
-        .popular-box figcaption p{
-            margin: 10px 0px 24% 0px;
-        }
+.popular-box figcaption p
+{
+margin: 10px 0px 24% 0px;
+}
 
 /*Hébergement à Marseille*/
 
-    article{
-        width: 60%;
-    }
+article
+{
+width: 60%;
+}
 
-    /*Titre*/
+/*Titre*/
 
-        article h2{
-            margin: 3px 0px 30px 0px;
-        }
+article h2
+{
+margin: 3px 0px 30px 0px;
+}
 
-    /*Contenu*/
-        .house-box{
-            height: 78.5%;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: space-between;
-        }
+/*Contenu*/
+.house-box
+{
+height: 78.5%;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: space-between;
+}
 
-        .house-box figure{
-            width: 29.5%;
-            height: 45%;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
+.house-box figure
+{
+width: 29.5%;
+height: 45%;
+flex-direction: column;
+justify-content: flex-end;
+}
 
-        .house-box figcaption{
-            width: 100%;
-            min-height: 41%;
-            padding: 0px 10px 0px 10px;
-            border-radius: 0px 0px 15px 15px;
-        }
+.house-box figcaption
+{
+width: 100%;
+min-height: 41%;
+padding: 0px 10px 0px 10px;
+border-radius: 0px 0px 15px 15px;
+}
 
-        .house-box figcaption h3{
-            margin: 10px 0px 0px 0px;
-        }
+.house-box figcaption h3
+{
+margin: 10px 0px 0px 0px;
+}
 
-        .house-box figcaption p{
-            margin: 7px 0px 10px 0px;
-        }
+.house-box figcaption p
+{
+margin: 7px 0px 10px 0px;
+}
 
 /* ------- ACTIVITES ------- */
 
