@@ -8,9 +8,9 @@
 
 /* Body police*/
 
-body
+body , html
 {
-    font-family: "raleway", "sans-serif";
+    font-family: 'Raleway', sans-serif;
 }
 #bloc_page
 {
